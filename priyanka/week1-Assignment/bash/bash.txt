@@ -1,0 +1,50 @@
+Bash (Terminal)
+
+Assume your present working directory is $ ~/buffy
+1.Make two directories inside ~/buffy: scoobies and vamps 
+
+    cd bluffy/
+
+    //inside bluffy directory - make two directories called as scoobies & vamps
+    mkdir scoobies
+    ls - to list out thing what is inside the folder
+
+    //mkdir vamps/
+
+    tree: bluffy
+    scoobies
+    vamps   
+
+2.Make files in scoobies named buffy.txt, giles.txt and angel.txt 
+
+    go to scoobies directory
+
+    type 
+    cd scoobies/
+
+    //goes inside tht directory
+    //touch by creating 3 files as buffy.txt, giles.txt and angel.txt
+
+    touch buffy.txt giles.txt angel.txt
+
+    // code . opens the vs editor and display those txt files.
+    code . 
+
+
+3.Copy angel.txt into the vamps directory 
+
+
+    to copy - befor that we need to make the file.
+
+    //touch file in bluffy
+
+    touch angel.txt 
+
+    cp angel.txt vamps/
+
+
+4.Delete the vamps directory and everything inside it 
+
+    rm -rf vamps/
+
+    Deletes everything inside vamps
